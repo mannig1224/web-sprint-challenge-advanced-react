@@ -88,9 +88,13 @@ You will also need to build the two tests in the `CheckoutForm.test.js` file and
 Be prepared to demonstrate your understanding of this week's concepts by answering questions on the following topics. Add your answers to the questions within `interview_answers.md` file. These will not be counted as a part of your sprint score but will be helpful for preparing you for your endorsement interview, and enhancing overall understanding.
 
 1. What are the main differences between a stateful and a functional component?
-
+  function components have no state and are simply used to render however with hooks they can also implement state. stateful components have state
 2. When does a componentWillMount function be called? What about a componentWillUpdate?
-
+as soon as the component renders, component will update gets called whenever state changes
 3. Define stateful logic.
-
+any component that uses stae
 4. What are the three step of creating a successful test? What is done in each phase?
+arrange, act, assert
+arrange the date you will use,
+act on that data - example add input to a form,
+assert on the data - what output does it give.
